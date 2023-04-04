@@ -32,6 +32,8 @@ void MyTcpServer::slotServerRead()
         QByteArray array = mTcpSocket->readAll();
 
         mTcpSocket->write(array);
+        
+        qDebug() << "Received message:" << array;
     }
 }
 
