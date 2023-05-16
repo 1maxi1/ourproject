@@ -1,0 +1,11 @@
+debug/dialoglogin.o
+debug/dialogregister.o
+debug/dialogtask.o
+debug/main.o
+debug/mainwindow.o
+debug/singleton.o
+debug/moc_dialoglogin.o
+debug/moc_dialogregister.o
+debug/moc_dialogtask.o
+debug/moc_mainwindow.o
+debug/moc_singleton.o
