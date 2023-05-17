@@ -153,7 +153,7 @@ void tcpServer::parse(QTcpSocket *pSocket)
 
         qDebug() << "query.lastError() " <<  query.lastError() << query.lastError().nativeErrorCode();
 
-        if(query.lastError().nativeErrorCode() == "19")
+        if(query.lastError().nativeErrorCode() == "2067")
         {
             sendMessage(pSocket, "err", "Такой логин уже существует");
         }
