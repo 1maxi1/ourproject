@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     w.hide();
 
     // проверяем, создать объект синглтона нельзя
-    // singleton object;                /* <----- ошибка */
+    // singleton onject;                /* <----- ошибка */
     // singleton::getInstance();        /* <----- верно  */
 
 

@@ -26,7 +26,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_singleton_t {
-    uint offsetsAndSizes[26];
+    uint offsetsAndSizes[24];
     char stringdata0[10];
     char stringdata1[7];
     char stringdata2[1];
@@ -34,12 +34,11 @@ struct qt_meta_stringdata_singleton_t {
     char stringdata4[13];
     char stringdata5[5];
     char stringdata6[5];
-    char stringdata7[17];
-    char stringdata8[12];
-    char stringdata9[18];
-    char stringdata10[21];
-    char stringdata11[18];
-    char stringdata12[29];
+    char stringdata7[12];
+    char stringdata8[18];
+    char stringdata9[21];
+    char stringdata10[18];
+    char stringdata11[29];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_singleton_t::offsetsAndSizes) + ofs), len 
@@ -52,12 +51,11 @@ Q_CONSTINIT static const qt_meta_stringdata_singleton_t qt_meta_stringdata_singl
         QT_MOC_LITERAL(29, 12),  // "incomingTask"
         QT_MOC_LITERAL(42, 4),  // "name"
         QT_MOC_LITERAL(47, 4),  // "body"
-        QT_MOC_LITERAL(52, 16),  // "onTimerReconnect"
-        QT_MOC_LITERAL(69, 11),  // "onReadyRead"
-        QT_MOC_LITERAL(81, 17),  // "onClientConnected"
-        QT_MOC_LITERAL(99, 20),  // "onClientDisconnected"
-        QT_MOC_LITERAL(120, 17),  // "onSokDisplayError"
-        QT_MOC_LITERAL(138, 28)   // "QAbstractSocket::SocketError"
+        QT_MOC_LITERAL(52, 11),  // "onReadyRead"
+        QT_MOC_LITERAL(64, 17),  // "onClientConnected"
+        QT_MOC_LITERAL(82, 20),  // "onClientDisconnected"
+        QT_MOC_LITERAL(103, 17),  // "onSokDisplayError"
+        QT_MOC_LITERAL(121, 28)   // "QAbstractSocket::SocketError"
     },
     "singleton",
     "authOk",
@@ -66,7 +64,6 @@ Q_CONSTINIT static const qt_meta_stringdata_singleton_t qt_meta_stringdata_singl
     "incomingTask",
     "name",
     "body",
-    "onTimerReconnect",
     "onReadyRead",
     "onClientConnected",
     "onClientDisconnected",
@@ -82,7 +79,7 @@ Q_CONSTINIT static const uint qt_meta_data_singleton[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -90,16 +87,15 @@ Q_CONSTINIT static const uint qt_meta_data_singleton[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   62,    2, 0x06,    1 /* Public */,
-       3,    0,   63,    2, 0x06,    2 /* Public */,
-       4,    2,   64,    2, 0x06,    3 /* Public */,
+       1,    0,   56,    2, 0x06,    1 /* Public */,
+       3,    0,   57,    2, 0x06,    2 /* Public */,
+       4,    2,   58,    2, 0x06,    3 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       7,    0,   69,    2, 0x0a,    6 /* Public */,
-       8,    0,   70,    2, 0x0a,    7 /* Public */,
-       9,    0,   71,    2, 0x0a,    8 /* Public */,
-      10,    0,   72,    2, 0x0a,    9 /* Public */,
-      11,    1,   73,    2, 0x0a,   10 /* Public */,
+       7,    0,   63,    2, 0x0a,    6 /* Public */,
+       8,    0,   64,    2, 0x0a,    7 /* Public */,
+       9,    0,   65,    2, 0x0a,    8 /* Public */,
+      10,    1,   66,    2, 0x0a,    9 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -110,8 +106,7 @@ Q_CONSTINIT static const uint qt_meta_data_singleton[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 12,    2,
+    QMetaType::Void, 0x80000000 | 11,    2,
 
        0        // eod
 };
@@ -133,8 +128,6 @@ Q_CONSTINIT const QMetaObject singleton::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QString, std::false_type>,
         QtPrivate::TypeAndForceComplete<QString, std::false_type>,
-        // method 'onTimerReconnect'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onReadyRead'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onClientConnected'
@@ -157,17 +150,16 @@ void singleton::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 0: _t->authOk(); break;
         case 1: _t->registerOk(); break;
         case 2: _t->incomingTask((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
-        case 3: _t->onTimerReconnect(); break;
-        case 4: _t->onReadyRead(); break;
-        case 5: _t->onClientConnected(); break;
-        case 6: _t->onClientDisconnected(); break;
-        case 7: _t->onSokDisplayError((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
+        case 3: _t->onReadyRead(); break;
+        case 4: _t->onClientConnected(); break;
+        case 5: _t->onClientDisconnected(); break;
+        case 6: _t->onSokDisplayError((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         switch (_id) {
         default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 7:
+        case 6:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
@@ -220,13 +212,13 @@ int singleton::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 7;
     }
     return _id;
 }

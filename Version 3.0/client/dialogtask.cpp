@@ -8,7 +8,6 @@ DialogTask::DialogTask(QWidget *parent) :
     ui->setupUi(this);
 
     connect(ui->buttonCancel, SIGNAL(clicked()), this, SLOT(hide()));
-    //connect(ui->buttonOk, SIGNAL(clicked()), this, SLOT(hide()));
 }
 
 DialogTask::~DialogTask()

@@ -92,14 +92,14 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "\320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\274\320\260 - \320\272\320\273\320\270\320\265\320\275\321\202", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "\320\240\320\265\321\210\320\265\320\275\320\276: 0 / 0", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "\320\221\320\260\320\273\320\273\321\213: 0", nullptr));
         buttonTask4->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\264\320\260\321\207\320\260 4", nullptr));
         buttonTask2->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\264\320\260\321\207\320\260 2", nullptr));
         buttonTask3->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\264\320\260\321\207\320\260 3", nullptr));
         buttonTask1->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\264\320\260\321\207\320\260 1", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "\320\240\320\265\321\210\320\265\320\275\320\276: 0 / 0", nullptr));
-        label_4->setText(QCoreApplication::translate("MainWindow", "\320\240\320\265\321\210\320\265\320\275\320\276: 0 / 0", nullptr));
-        label_3->setText(QCoreApplication::translate("MainWindow", "\320\240\320\265\321\210\320\265\320\275\320\276: 0 / 0", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "\320\221\320\260\320\273\320\273\321\213: 0", nullptr));
+        label_4->setText(QCoreApplication::translate("MainWindow", "\320\221\320\260\320\273\320\273\321\213: 0", nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "\320\221\320\260\320\273\320\273\321\213: 0", nullptr));
     } // retranslateUi
 
 };

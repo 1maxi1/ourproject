@@ -24,11 +24,6 @@ singleton::~singleton()
 {
 }
 
-void singleton::onTimerReconnect()
-{
-    qDebug() << "TIMER";
-}
-
 void singleton::sendMessage(QString cmd, QString body)
 {
     qDebug() << "SEND MESSAGE" << cmd << body << "connected:" << (m_pSock->state() == QAbstractSocket::ConnectedState)  ;
@@ -101,7 +96,7 @@ void singleton::onReadyRead()
 
 void singleton::onSokDisplayError(QAbstractSocket::SocketError err)
 {
-    qDebug() << "socket errot" << err;
+    qDebug() << "socket error" << err;
 }
 
 bool singleton::parse()

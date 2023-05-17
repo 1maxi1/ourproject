@@ -35,9 +35,6 @@ public:
     QString getCurrentLogin();
 
 public slots:
-    void onTimerReconnect();
-
-public slots:
     void onReadyRead();
     void onClientConnected();
     void onClientDisconnected();
