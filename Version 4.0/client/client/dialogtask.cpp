@@ -60,7 +60,7 @@ void DialogTask::onAnswer()
     }
 
     QString answer = ui->textEditSolution->toPlainText();
-    if((m_taskName == "task1" || m_taskName == "task2" || m_taskName == "task3") && (answer != "0" && answer != "1"))
+    if((m_taskName == "task2" || m_taskName == "task3" || m_taskName == "task4") && (answer != "0" && answer != "1"))
     {
         QMessageBox msgBox;
         msgBox.setText("Правилдьно введите данные");
