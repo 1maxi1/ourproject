@@ -1,0 +1,13 @@
+release/dialoglogin.o
+release/dialogregister.o
+release/dialogresults.o
+release/dialogtask.o
+release/main.o
+release/mainwindow.o
+release/singleton.o
+release/moc_dialoglogin.o
+release/moc_dialogregister.o
+release/moc_dialogresults.o
+release/moc_dialogtask.o
+release/moc_mainwindow.o
+release/moc_singleton.o
